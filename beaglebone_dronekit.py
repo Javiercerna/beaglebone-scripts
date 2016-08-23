@@ -36,13 +36,3 @@ while (True):
 # Close vehicle object before exiting script
 vehicle.close()
 print 'Vehicle disconnected'
-
-#ser = serial.Serial(port=PORT,baudrate=BAUDRATE)
-#ser.close()
-#ser.open()
-
-#if ser.isOpen():
-#    print 'Serial is open!'
-#    ser.write('Hello')
-
-#ser.close()
