@@ -2,7 +2,7 @@ import Adafruit_BBIO.GPIO as GPIO
 import Adafruit_BBIO.PWM as PWM
 import time
 
-# IMPORTANT: Common cathode LEDs!!! Supply with 3.3 V
+# IMPORTANT: Common anode LEDs!!! Supply with 3.3 V
 
 # Constants
 # ---------------------------------------------------------------------------
