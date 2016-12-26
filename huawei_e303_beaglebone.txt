@@ -14,3 +14,6 @@ sudo pppd debug -detach noauth defaultroute /dev/ttyUSB0 9600 > ppp.log &
 
 
 (sudo nano /etc/network/interfaces)
+
+(If it recognizes ip but not urls when using ping, then do: sudo nano /etc/resolv.conf, comment all and add nameserver 8.8.8.8)
+
