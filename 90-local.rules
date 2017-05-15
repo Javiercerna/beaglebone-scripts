@@ -1,0 +1,4 @@
+# Copy this file to /etc/udev/rules.d/
+ACTION=="add", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="15d4", RUN+="/home/debian/scripts/restart_modem.sh"
+ACTION=="add", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="15d5", RUN+="/home/debian/scripts/restart_modem.sh"
+#ATTRS{idVendor}=="****", ATTRS{idProduct}=="****", RUN+="/home/debian/scripts/./print_usb_info.sh"
